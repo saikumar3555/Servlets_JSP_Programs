@@ -1,0 +1,16 @@
+<web-app>
+	<servlet>
+		<servlet-name>UpdateTrain11Details</servlet-name>
+		<servlet-class>com.nit.UpdateTrain11Details</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	   <servlet-name>UpdateTrain11Details</servlet-name>
+	   <url-pattern>/update</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+
+	</welcome-file-list>
+</web-app>

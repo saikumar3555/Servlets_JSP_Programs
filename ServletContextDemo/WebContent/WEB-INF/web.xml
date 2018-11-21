@@ -1,0 +1,23 @@
+<web-app>
+	<!-- <context-param>
+		<param-name>contextvalue</param-name>
+		<param-value>3000</param-value>
+	</context-param>  -->
+
+	<servlet>
+		<servlet-name>ContextDemo</servlet-name>
+		<servlet-calss>com.nit.ContextDemo</servlet-calss>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ContextDemo</servlet-name>
+		<url-pattern>/cDemo</url-pattern>
+
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+
+
+</web-app>

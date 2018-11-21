@@ -1,0 +1,154 @@
+<web-app>
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>com.nit.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>DeleteAccountServlet</servlet-name>
+		<servlet-class>com.nit.DeleteAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteAccountServlet</servlet-name>
+		<url-pattern>/DeleteAccount</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UpdateAccountServlet</servlet-name>
+		<servlet-class>com.nit.UpdateAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateAccountServlet</servlet-name>
+		<url-pattern>/UpdateAccount</url-pattern>
+	</servlet-mapping>
+	
+
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.nit.Login</servlet-class>
+		<!-- <init-param>
+		  <param-name>dbuname</param-name>
+		  <param-value>hr</param-value>
+		</init-param>
+		<init-param>
+		  <param-name>dbpword</param-name>
+		  <param-value> </param-value>
+		</init-param>
+		<init-param>
+		  <param-name>connectionURL</param-name>
+		  <param-value>jdbc:oracle:thin:@localhost:1521:xe</param-value>
+		</init-param> -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+
+   <servlet>
+		<servlet-name>DeleteBookDetailsServlet</servlet-name>
+		<servlet-class>com.nit.DeleteBookDetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteBookDetailsServlet</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ViewServlet</servlet-name>
+		<servlet-class>com.nit.ViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>AddServlet</servlet-name>
+		<servlet-class>com.nit.AddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddServlet</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ViewBookDetails</servlet-name>
+		<servlet-class>com.nit.ViewBookDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewBookDetails</servlet-name>
+		<url-pattern>/viewbook</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>UpdateBookQuantityServlet</servlet-name>
+		<servlet-class>com.nit.UpdateBookQuantityServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateBookQuantityServlet</servlet-name>
+		<url-pattern>/ubq</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>UpdateBookPriceServlet</servlet-name>
+		<servlet-class>com.nit.UpdateBookPriceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateBookPriceServlet</servlet-name>
+		<url-pattern>/ubp</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>AccountServlet</servlet-name>
+		<servlet-class>com.nit.AccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccountServlet</servlet-name>
+		<url-pattern>/AccountInfo</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	<welcome-file-list>
+		<welcome-file>Login.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
+
+
+
+
+
+
+
+
+
+

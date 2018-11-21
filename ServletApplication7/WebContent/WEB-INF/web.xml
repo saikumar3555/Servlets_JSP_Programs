@@ -1,0 +1,19 @@
+
+  <web-app>
+  <servlet>
+   <servlet-name>ModifyProductDetails</servlet-name>
+   <servlet-class>com.nit.ModifyProductDetails</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>ModifyProductDetails</servlet-name>
+  <url-pattern>/modify</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>input.html</welcome-file>
+    
+  </welcome-file-list>
+</web-app>

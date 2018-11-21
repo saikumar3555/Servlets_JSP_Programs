@@ -1,0 +1,19 @@
+<web-app>
+	<servlet>
+		<servlet-name>ConfigServlet</servlet-name>
+		<servlet-class>com.nit.ConfigServlet</servlet-class>
+		<init-param>
+			<param-name>configvalue</param-name>
+			<param-value>20000</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>ConfigServlet</servlet-name>
+	<url-pattern>/display</url-pattern>
+	</servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+</web-app>

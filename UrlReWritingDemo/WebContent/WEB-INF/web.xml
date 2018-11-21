@@ -1,0 +1,30 @@
+
+<web-app>
+
+	<servlet>
+		<servlet-name>ViewProductsServlet</servlet-name>
+		<servlet-class>com.nit.ViewProductsServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ViewProductsServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		
+		<servlet-name>DisplayServlet</servlet-name>
+		<servlet-class>com.nit.DisplayServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DisplayServlet</servlet-name>
+		<url-pattern>/dis</url-pattern>
+	</servlet-mapping>
+	
+
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,34 @@
+
+<web-app>
+	<servlet>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<servlet-class>com.nit.UserLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<url-pattern>/userlogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UserHomepageServlet</servlet-name>
+		<servlet-class>com.nit.UserHomepageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserHomepageServlet</servlet-name>
+		<url-pattern>/userhomepage</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>UserViewProductsServlet</servlet-name>
+		<servlet-class>com.nit.UserViewProductsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserViewProductsServlet</servlet-name>
+		<url-pattern>/getproducts</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>Login.html</welcome-file>
+	</welcome-file-list>
+</web-app>

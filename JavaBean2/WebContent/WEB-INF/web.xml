@@ -1,0 +1,51 @@
+<web-app>
+
+<servlet>
+ <servlet-name>RegSrevlet1</servlet-name>
+ <servlet-class>com.nit.RegSrevlet1</servlet-class>
+</servlet>
+  <servlet-mapping>
+   <servlet-name>RegSrevlet1</servlet-name>
+   <url-pattern>/reg1</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+ <servlet-name>RegServlet2</servlet-name>
+ <servlet-class>com.nit.RegServlet2</servlet-class>
+</servlet>
+  <servlet-mapping>
+   <servlet-name>RegServlet2</servlet-name>
+   <url-pattern>/reg2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+ <servlet-name>ViewServlet</servlet-name>
+ <servlet-class>com.nit.ViewServlet</servlet-class>
+</servlet>
+  <servlet-mapping>
+   <servlet-name>ViewServlet</servlet-name>
+   <url-pattern>/view</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+ <servlet-name>RegFinalServlet</servlet-name>
+ <servlet-class>com.nit.RegFinalServlet</servlet-class>
+</servlet>
+  <servlet-mapping>
+   <servlet-name>RegFinalServlet</servlet-name>
+   <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>input1.html</welcome-file>
+    
+  </welcome-file-list>
+</web-app>

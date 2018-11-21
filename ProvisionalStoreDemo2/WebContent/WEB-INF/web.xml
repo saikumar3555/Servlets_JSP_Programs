@@ -1,0 +1,16 @@
+<web-app>
+ <servlet>
+ <servlet-name>
+DiscountServlet
+ </servlet-name>
+ <servlet-class>com.nit.DiscountServlet</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+  <servlet-name>
+DiscountServlet
+ </servlet-name>
+ <url-pattern>/dis</url-pattern>
+   
+  </servlet-mapping>
+  </web-app>

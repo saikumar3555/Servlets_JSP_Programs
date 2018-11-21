@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+ <servlet>
+    <servlet-name>RetriveProduct11Details</servlet-name>
+    <servlet-class>com.nit.RetriveProduct11Details</servlet-class>
+ 
+ </servlet>
+
+<servlet-mapping> 
+<servlet-name>RetriveProduct11Details</servlet-name>
+<url-pattern>/pqr</url-pattern>
+
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>input.html</welcome-file>
+</welcome-file-list>
+
+</web-app>

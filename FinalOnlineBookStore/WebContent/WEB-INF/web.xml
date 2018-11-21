@@ -1,0 +1,144 @@
+
+<web-app>
+  <display-name>FinalOnlineBookStore</display-name>
+  
+  <servlet>
+  <servlet-name>AdminLoginServlet</servlet-name>
+  <servlet-class>com.nit.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminLoginServlet</servlet-name>
+  <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>UserViewBooksServlet</servlet-name>
+  <servlet-class>com.nit.UserViewBooksServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UserViewBooksServlet</servlet-name>
+  <url-pattern>/UserViewBooks</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>PaymentServlet</servlet-name>
+  <servlet-class>com.nit.PaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>PaymentServlet</servlet-name>
+  <url-pattern>/Payment</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>UserLogoutServlet</servlet-name>
+  <servlet-class>com.nit.UserLogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UserLogoutServlet</servlet-name>
+  <url-pattern>/UserLogout</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>UserRegistrationServlet</servlet-name>
+  <servlet-class>com.nit.UserRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UserRegistrationServlet</servlet-name>
+  <url-pattern>/UserRegistration</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>AdminProfileViewServlet</servlet-name>
+  <servlet-class>com.nit.AdminProfileViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminProfileViewServlet</servlet-name>
+  <url-pattern>/AdminProfileView</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <servlet>
+  <servlet-name>AdminViewBooksServlet</servlet-name>
+  <servlet-class>com.nit.AdminViewBooksServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminViewBooksServlet</servlet-name>
+  <url-pattern>/AdminViewBooks</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>AddBookServlet</servlet-name>
+  <servlet-class>com.nit.AddBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AddBookServlet</servlet-name>
+  <url-pattern>/AddBook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DeleteBookServlet</servlet-name>
+  <servlet-class>com.nit.DeleteBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DeleteBookServlet</servlet-name>
+  <url-pattern>/DeleteBook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>EditBookServlet</servlet-name>
+  <servlet-class>com.nit.EditBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>EditBookServlet</servlet-name>
+  <url-pattern>/EditBook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>AdminLogoutServlet</servlet-name>
+  <servlet-class>com.nit.AdminLogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminLogoutServlet</servlet-name>
+  <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>UserLoginServlet</servlet-name>
+  <servlet-class>com.nit.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UserLoginServlet</servlet-name>
+  <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>BuyBooksServlet</servlet-name>
+  <servlet-class>com.nit.BuyBooksServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>BuyBooksServlet</servlet-name>
+  <url-pattern>/BuyBooks</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>StartingPage.html</welcome-file>
+    
+  </welcome-file-list>
+</web-app>

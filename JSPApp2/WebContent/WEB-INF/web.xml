@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+ <servlet-name>ReadServlet</servlet-name>
+ <servlet-class>com.nit.ReadServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>ReadServlet</servlet-name>
+ <url-pattern>/read</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>DisJSP</servlet-name>
+ <jsp-file>/DisJSP.jsp</jsp-file>
+</servlet>
+ <servlet-mapping>
+ <servlet-name>DisJSP</servlet-name>
+ <url-pattern>/dis</url-pattern>
+ </servlet-mapping>
+<welcome-file-list>
+ <welcome-file>Product.html</welcome-file>
+</welcome-file-list>
+</web-app>

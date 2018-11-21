@@ -1,0 +1,61 @@
+<web-app>
+	<servlet>
+		<servlet-name>CalculationServlet</servlet-name>
+		<servlet-class>com.nit.CalculationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CalculationServlet</servlet-name>
+		<url-pattern>/pqr</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddServlet</servlet-name>
+		<servlet-class>com.nit.AddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddServlet</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SubServlet</servlet-name>
+		<servlet-class>com.nit.SubServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubServlet</servlet-name>
+		<url-pattern>/sub</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>MulServlet</servlet-name>
+		<servlet-class>com.nit.MulServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MulServlet</servlet-name>
+		<url-pattern>/mul</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DivServlet</servlet-name>
+		<servlet-class>com.nit.DivServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DivServlet</servlet-name>
+		<url-pattern>/div</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ModServlet</servlet-name>
+		<servlet-class>com.nit.ModServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ModServlet</servlet-name>
+		<url-pattern>/mod</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+	 <welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+</web-app>

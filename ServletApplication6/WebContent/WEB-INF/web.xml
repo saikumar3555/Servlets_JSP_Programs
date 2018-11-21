@@ -1,0 +1,19 @@
+
+  <web-app>
+  <servlet>
+   <servlet-name>RetriveTrainDetails</servlet-name>
+   <servlet-class>com.nit.RetriveTrainDetails</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>RetriveTrainDetails</servlet-name>
+  <url-pattern>/pqr</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>input.html</welcome-file>
+    
+  </welcome-file-list>
+</web-app>

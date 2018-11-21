@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>
+	     com.test.FirstServlet
+	   </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/pqr</url-pattern>
+  </servlet-mapping>
+  </web-app>
+   

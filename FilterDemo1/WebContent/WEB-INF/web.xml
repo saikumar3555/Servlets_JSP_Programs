@@ -1,0 +1,29 @@
+<web-app>
+
+
+
+<servlet>
+<servlet-name>WelcomeServlet</servlet-name>
+<servlet-class>com.nit.WelcomeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>WelcomeServlet</servlet-name>
+<url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+
+<filter>
+  <filter-name>LoginFilter</filter-name>
+  <filter-class>com.nit.LoginFilter</filter-class>
+
+</filter>
+<filter-mapping>
+<filter-name>LoginFilter</filter-name>
+<url-pattern>/login</url-pattern>
+</filter-mapping>
+
+
+<welcome-file-list>
+ <welcome-file>login.html</welcome-file>
+</welcome-file-list>
+</web-app>
